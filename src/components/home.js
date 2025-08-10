@@ -24,7 +24,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const categoryImages = {
-  "Home Appliances": "/Home-appliances.jpg",
+  "Home Appliances": "/Home-Appliances.jpg",
   Groceries: "/Groceries.jpg",
   Furniture: "/Furniture.jpg",
   Fashion: "/Fashion.jpg",
