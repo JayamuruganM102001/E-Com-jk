@@ -24,14 +24,14 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const categoryImages = {
-  "Home Appliances": "/home-appliances.jpg",
-  Groceries: "/groceries.jpg",
-  Furniture: "/furniture.jpg",
-  Fashion: "/fashion.jpg",
-  Electronics: "/electronics.jpg",
-  Books: "/books.jpg",
-  Beauty: "/beauty.jpg",
-  Automotive: "/automotive.jpg",
+  "Home Appliances": "/Home-appliances.jpg",
+  Groceries: "/Groceries.jpg",
+  Furniture: "/Furniture.jpg",
+  Fashion: "/Fashion.jpg",
+  Electronics: "/Electronics.jpg",
+  Books: "/Books.jpg",
+  Beauty: "/Beauty.jpg",
+  Automotive: "/Automotive.jpg",
   Toys: "/Toys.jpg",
   Stationery: "/Stationery.jpg",
   default: "/default-category.jpg",
