@@ -16,7 +16,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("D:\E-COM\frontend\public\wall_image.jpg"); /* **Replace with your brick wall image URL** */
+  background-image: url("/wall_image.jpg"); /* Updated for Vercel */
   background-size: cover;
   background-position: center;
   filter: brightness(0.6); /* Darken the background slightly */
@@ -34,7 +34,6 @@
   filter: blur(50px); /* Soften the edges of the light */
   z-index: 1; /* Ensure it's above the background image */
 }
-
 
 .login-card-wrapper {
   position: relative;
@@ -121,7 +120,6 @@
   transform: translate(-50%, -50%);
 }
 
-
 .login-button {
   width: 100%;
   padding: 12px;
@@ -155,7 +153,6 @@
   cursor: pointer;
 }
 
-/* Add these new styles to your existing Login.css */
 .auth-toggle-container {
   width: 100%;
   display: flex;
@@ -186,116 +183,4 @@
   background: rgba(255, 255, 255, 0.2);
   color: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Keep all your existing styles below */
-.login-container {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  overflow: hidden;
-  background-color: #05173a;
-}
-
-.background-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("D:\E-COM\frontend\public\wall_image.jpg");
-  background-size: cover;
-  background-position: center;
-  filter: brightness(0.6);
-  z-index: 0;
-}
-
-.spotlight {
-  position: absolute;
-  top: 0%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 250px;
-  height: 250px;
-  background: radial-gradient(circle at 50% 0%, rgba(255, 255, 150, 0.7) 0%, rgba(255, 255, 150, 0) 70%);
-  filter: blur(50px);
-  z-index: 1;
-}
-
-.login-card-wrapper {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-}
-
-.login-card {
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 15px;
-  padding: 40px;
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  width: 400px;
-  max-width: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-
-.input-field {
-  width: 100%;
-  padding: 12px 12px 12px 40px;
-  border: none;
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
-  outline: none;
-  transition: all 0.3s ease;
-  font-size: 1rem;
-}
-
-.input-field::placeholder {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.input-field:focus {
-  background: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.4);
-}
-
-.input-icon {
-  position: absolute;
-  left: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.login-button {
-  width: 100%;
-  padding: 12px;
-  border: none;
-  border-radius: 8px;
-  background-color: #6366f1;
-  color: white;
-  font-weight: bold;
-  font-size: 1.1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.login-button:hover {
-  background-color: #4f46e5;
-  transform: translateY(-2px);
 }
